@@ -10,8 +10,8 @@ q = 10;
 k = 0.5;
 S = q/k;       % source term
 
-uL = 100;
-uR = 20;
+uL = 300;
+uR = 400;
 
 tol = 1e-5;    % convergence tolerance
 maxIter = 10000;
@@ -77,4 +77,3 @@ ylabel('Temperature (°C)');
 title('1D Steady-State Heat Conduction with Constant Source');
 legend show;
 grid on;
-
