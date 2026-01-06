@@ -12,14 +12,14 @@ Both cases are validated against analytical solutions.
 ## Governing Equation
 
 ### Without Heat Generation
-\[
+$$
 \frac{d^2 T}{dx^2} = 0
-\]
+$$
 
 ### With Uniform Heat Generation
-\[
+$$
 \frac{d^2 T}{dx^2} = -\frac{q'''}{k}
-\]
+$$
 
 where:
 - \(T\) is temperature
