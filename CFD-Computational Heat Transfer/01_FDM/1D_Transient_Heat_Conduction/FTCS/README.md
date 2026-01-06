@@ -8,9 +8,9 @@
 ---
 
 ## Stability Criterion
-\[
-Fo = \frac{\alpha \Delta t}{\Delta x^2} \leq 0.5
-\]
+$$
+Fo = \frac{\alpha \Delta t}{\Delta x^2} \le 0.5
+$$
 
 ---
 
