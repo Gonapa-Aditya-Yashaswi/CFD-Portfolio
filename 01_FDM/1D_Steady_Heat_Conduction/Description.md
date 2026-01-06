@@ -69,7 +69,7 @@ where:
 - Error decreases with grid refinement
 
 ### No Heat Generation
-![Temperature distribution without source](Figures/Temperature_no_source.png)
+![Temperature distribution without source](Figures/Temperature_without_source.png)
 
 ### With Uniform Heat Generation
 ![Temperature distribution with source](Figures/Temperature_with_source.png)
