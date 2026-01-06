@@ -24,6 +24,8 @@ Fo = \frac{\alpha \Delta t}{\Delta x^2} \leq 0.5
 ## Results
 - Time evolution of temperature profiles
 - Comparison with analytical solution
+- ![Transient temperature evolution](Figure/1D_FTCS.png)
+
 
 ---
 
