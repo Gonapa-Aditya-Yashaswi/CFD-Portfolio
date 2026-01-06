@@ -10,13 +10,13 @@ temperature profiles.
 ---
 
 ## Governing Equation
-\[
+$$
 \frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
-\]
+$$
 
 where:
-- \(T\) is temperature
-- \(\alpha\) is thermal diffusivity
+- T is temperature
+- α is thermal diffusivity
 
 ---
 
