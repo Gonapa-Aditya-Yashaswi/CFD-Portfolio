@@ -32,10 +32,10 @@ $$
 
 ## Boundary Conditions
 Dirichlet (fixed temperature):
-- Top wall: \( T = T_{top} \)
-- Bottom wall: \( T = T_{bottom} \)
-- Left wall: \( T = T_{left} \)
-- Right wall: \( T = T_{right} \)
+- Top wall: 150°C
+- Bottom wall: 50°C
+- Left wall: 50°C
+- Right wall: 50°C
 
 ---
 
@@ -52,14 +52,17 @@ Observations:
 
 ## Results
 
-### Temperature Contour
-![2D temperature contour](figures/temperature_contour.png)
+### Temperature Contours
+![2D temperature Analytical contour](Figures/Temperature_analytical.png)
+
+
+![2D temperature Numerical contour](Figures/Temperature_numerical.png)
 
 ### Mid-Width Validation (x = L/2)
-![mid-width validation](figures/mid_width_validation.png)
+![mid-width validation](Figures/profile_at_x.png)
 
 ### Mid-Height Validation (y = W/2)
-![mid-height validation](figures/mid_height_validation.png)
+![mid-height validation](Figures/profile_at_y.png)
 
 ---
 
