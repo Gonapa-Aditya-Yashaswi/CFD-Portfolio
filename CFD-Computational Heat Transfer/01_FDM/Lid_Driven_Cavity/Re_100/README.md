@@ -11,22 +11,25 @@
 ## Results
 
 ### Streamlines
-![streamlines](figures/streamlines.png)
+![streamlines](Figures/streamlines_100.png)
+
+### Stream Contours
+![Stream](Figures/stream_func_contour_100.png)
 
 ### Vorticity Contours
-![vorticity](figures/vorticity.png)
+![vorticity](Figures/vorticity_func_contour_100.png)
 
 ### Centerline Velocity Validation
 - $(u\) vs \(y\) at \(x = 0.5\)$
 - $(v\) vs \(x\) at \(y = 0.5\)$
 
-![u profile](figures/u_profile.png)
-![v profile](figures/v_profile.png)
+![u profile](Figures/profile_at_x_re_100.png)
+![v profile](Figures/profile_at_y_re_100.png)
 
 ---
 
 ## Observations
-- Good match with Ghia et al. benchmark
+- Good match with Ghia et al. benchmark 
 - Symmetric vortex center
 - Smooth convergence to steady state
 
