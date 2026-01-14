@@ -45,8 +45,8 @@ Boundary conditions:
 
 ## Validation
 Centerline slices extracted and compared to analytical solution:
-- \(x = L/2\)
-- \(y = W/2\)
+- $(x = L/2\)$
+- $(y = W/2\)$
 
 Good agreement observed, improving as grid is refined.
 
@@ -55,13 +55,13 @@ Good agreement observed, improving as grid is refined.
 ## Results
 
 ### Temperature Contour
-![temperature](../figures/temperature_contour.png)
+![temperature](Figures/temp_contour_steady.png)
 
-### Mid-Width Validation (\(x=L/2\))
-![mid x validation](../figures/validation_mid_x.png)
+### Mid-Width Validation $\(x=L/2\)$
+![mid x validation](Figures/centerline_x.png)
 
-### Mid-Height Validation (\(y=W/2\))
-![mid y validation](../figures/validation_mid_y.png)
+### Mid-Height Validation $\(y=W/2\)$
+![mid y validation](Figures/centerline_y.png)
 
 ---
 
