@@ -55,13 +55,13 @@ Matching trend confirms correctness.
 ## Results
 
 ### Temperature Contour (With Source)
-![temperature](Figures/temperature_contour_source.png)
+![temperature](Figures/temp_contour_with_source.png)
 
 ### Mid-Width Profile $\(x = L/2\)$
-![mid width](Figures/mid_width_validation_source.png)
+![mid width](Figures/centerline_x_source.png)
 
 ### Mid-Height Profile $\(y = W/2\)$
-![mid height](Figures/mid_height_validation_source.png)
+![mid height](Figures/centerline_y_source.png)
 
 ---
 
@@ -80,5 +80,5 @@ Matching trend confirms correctness.
 
 ## Status
 ✔ Completed  
-✔ Validated using centerline comparison
+❌ No Analytical Solution
 
