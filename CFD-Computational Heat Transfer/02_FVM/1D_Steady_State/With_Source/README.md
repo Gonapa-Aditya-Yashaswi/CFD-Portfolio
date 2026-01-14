@@ -13,7 +13,7 @@ $$
 
 With boundary conditions: 
 
-- $T(0) = T_L, \qquad T(L) = T_R$
+- $T(0) = 400 °K, \qquad T(L) = 300 °K$
 
 
 Analytical solution:
@@ -28,7 +28,7 @@ Analytical solution:
 ## Numerical Method
 - Cell-centered finite volume method
   
-- Uniform mesh with \( $\Delta x = L/N \$)
+- Uniform mesh with \( $\Delta x = L/N-1 \$)
   
 - Constant thermal conductivity
   
@@ -58,7 +58,7 @@ Error decreases with grid refinement.
 ## Results
 
 ### Temperature Distribution
-![temperature](../figures/temp_profile_with_source.png)
+![temperature](Figures/1D_with_source.png)
 
 ---
 
