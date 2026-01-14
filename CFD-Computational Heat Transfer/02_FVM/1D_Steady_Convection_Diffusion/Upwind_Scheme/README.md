@@ -34,10 +34,10 @@ Same boundary conditions as central scheme.
 ## Results
 
 ### Temperature Profile (Upwind)
-![upwind](../figures/1D_upwind.png)
+![upwind](Figures/us.png)
 
 ### Comparison With Central
-![comparison](../figures/central_vs_upwind.png)
+![comparison](Figures/comparecsus.png)
 
 ---
 
