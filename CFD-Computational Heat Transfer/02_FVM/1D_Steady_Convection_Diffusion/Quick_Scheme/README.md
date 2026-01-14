@@ -62,10 +62,10 @@ Trade-off:
 ## Results
 
 ### Temperature Profile (QUICK)
-![quick](../figures/1D_quick.png)
+![quick](Figures/quick.png)
 
 ### Comparison of Schemes
-![comparison](../figures/central_upwind_quick.png)
+![comparison](Figures/differentschemes.png)
 
 ---
 
