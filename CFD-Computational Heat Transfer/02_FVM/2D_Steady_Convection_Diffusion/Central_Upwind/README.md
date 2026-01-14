@@ -89,10 +89,10 @@ $Pe_y = \frac{\rho v \Delta y}{\gamma}$
 ## Results
 
 ### CDS Contour
-![central](../figures/central_contour.png)
+![central](Figures/2d_central.png)
 
 ### UDS Contour
-![upwind](../figures/upwind_contour.png)
+![upwind](Figures/2d_upwind.png)
 
 ---
 
