@@ -48,17 +48,14 @@ Central differencing becomes **unstable/unbounded** when:
 
 $Pe > 2$
 
-Oscillations may occur (demonstrated in results).
+Oscillations may occur.
 
 ---
 
 ## Results
 
-### Temperature Profile (Central)
-![central](../figures/1D_central.png)
-
 ### Analytical vs Numerical
-![comparison](../figures/central_validation.png)
+![comparison](Figures/cs_scheme.png)
 
 ---
 
