@@ -55,7 +55,9 @@ Oscillations may occur.
 ## Results
 
 ### Analytical vs Numerical
-![comparison](Figures/cs_scheme.png)
+![comparison Pe = 1](Figures/cs_scheme.png)
+
+![comparison Pe = 1.25](Figures/cs_scheme.png)
 
 ---
 
