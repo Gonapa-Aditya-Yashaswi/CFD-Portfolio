@@ -52,7 +52,7 @@ First-order, unconditionally stable
 
 Solver:
 - Gauss–Seidel iteration
-- Convergence to tolerance \(10^{-8}\)
+- Convergence to tolerance $\(10^{-8}\)$
 
 ---
 
@@ -71,10 +71,10 @@ Compared against analytical solution:
 ## Results
 
 ### Contour Plot
-![contour](../figures/contour_upwind.png)
+![contour](Figures/1d_on2dgrid_contour.png)
 
 ### Centerline Validation
-![centerline](../figures/centerline_upwind_vs_exact.png)
+![centerline](Figures/valid1d.png)
 
 ---
 
