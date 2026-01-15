@@ -63,6 +63,11 @@ Reference:
 | 1000 | ![Re1000](./Re_1000/Figures/Re1000/streamlines.png) |
 
 ### Velocity Magnitude
+| Re | Contour |
+|----|----------|
+| 100 | ![Re100](./Re_100/Figures/vel_contour.png) |
+| 400 | ![Re400](./Re_400/Figures/Re400/velocitycontour.png) |
+| 1000 | ![Re1000](./Re_1000/Figures/Re1000/velocitycontour.png) |
 
 
 ### Centerline Validation
