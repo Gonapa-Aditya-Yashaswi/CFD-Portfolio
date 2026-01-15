@@ -39,7 +39,7 @@ $\nabla \cdot \mathbf{u} = 0,\quad \partial \mathbf{u}/\partial t + (\mathbf{u}\
 | Lid (moving)| (1 0 0) fixedValue | zeroGradient |
 | Other walls | (0 0 0) fixedValue | zeroGradient |
 
-Mesh: uniform structured (e.g., 50×50 or higher)
+Mesh: uniform structured 
 
 ---
 
