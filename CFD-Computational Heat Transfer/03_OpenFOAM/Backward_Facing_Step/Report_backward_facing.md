@@ -2,7 +2,7 @@
 
 ## Objective
 Simulate flow over a backward-facing step at multiple Reynolds numbers and
-validate the velocity field for Re = 550 using Rouizi et al. (2014).
+validate the velocity field for Re = 550 using Rouizi et al. (2009).
 
 ---
 
@@ -39,7 +39,7 @@ $\partial_t \mathbf{u} + (\mathbf{u}\cdot\nabla)\mathbf{u} = -\nabla p + \nu\nab
 | 550 | ![Re550](./Re_550/Figures/streamlines.png) |
 
 
-### Velocity U_X Contours 
+### Velocity $U_x$ Contours 
 | Re | Plot |
 |----|------|
 | 100 | ![Re100](./Re_100/Figures/uxcontour.png) |
@@ -47,7 +47,7 @@ $\partial_t \mathbf{u} + (\mathbf{u}\cdot\nabla)\mathbf{u} = -\nabla p + \nu\nab
 | 550 | ![Re550](./Re_550/Figures/uxcontour.png) |
 
 
-### Velocity U_Y Contours 
+### Velocity $U_y$ Contours 
 | Re | Plot |
 |----|------|
 | 100 | ![Re100](./Re_100/Figures/uycontour.png) |
@@ -62,11 +62,15 @@ Rouizi et al., *Numerical model reduction of 2D steady incompressible laminar
 flows: Application on the flow over a backward-facing step*, 2009.
 
 ### Comparison Plots
-#### $( u / U_{max} \)  vs  \( y/H \)$
+#### $( U / U_{max} \)  vs  \( y/H \)$
 ![U profile](./Re_550/Figures/uxvy.png)
 
-#### $( v / U_{max} \)  vs  \( y/H \)$
+#### $( U_y / U_{max} \)  vs  \( y/H \)$
 ![V profile](./Re_550/Figures/uyvy.png)
+
+
+#### $Reattachment length\ vs\ Reynolds number$
+![U profile](./Re_550/Figures/untitled.png)
 
 ---
 
