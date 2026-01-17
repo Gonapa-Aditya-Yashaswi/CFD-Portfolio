@@ -79,8 +79,14 @@ Re = 180
 ---
 
 ## Notes
-This study focuses on **qualitative flow physics and visualization**.
-No quantitative validation is claimed in this work.
+
+This study focuses on qualitative analysis of flow over a circular cylinder,
+highlighting wake development, separation, and vortex shedding across different
+Reynolds numbers.
+
+No quantitative validation against experimental or numerical benchmarks is
+claimed in this work.
+
 
 ---
 
