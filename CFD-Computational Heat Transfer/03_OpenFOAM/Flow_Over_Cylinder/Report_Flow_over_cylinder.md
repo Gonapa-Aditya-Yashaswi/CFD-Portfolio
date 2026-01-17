@@ -15,7 +15,7 @@ Re = 20, 40, 150, 180
 - 2D circular cylinder
 - Uniform inlet velocity
 - Laminar incompressible flow
-- Solver: `icoFoam`
+- Solver: `simpleFoam` `icoFoam` `pisoFoam`
 - Structured / body-fitted mesh
 
 ---
@@ -37,7 +37,7 @@ $\partial_t \mathbf{u} + (\mathbf{u}\cdot\nabla)\mathbf{u}
 
 ---
 
-### Velocity / Pressure Contours
+### Velocity Contours
 | Re | Visualization |
 |----|---------------|
 | 20 | ![Re20](./Re_20/Figures/velocity.png) |
@@ -45,11 +45,28 @@ $\partial_t \mathbf{u} + (\mathbf{u}\cdot\nabla)\mathbf{u}
 | 150 | ![Re150](./Re_150/Figures/velocity.png) |
 | 180 | ![Re180](./Re_180/Figures/velocity.png) |
 
+### Pressure Contours
+| Re | Visualization |
+|----|---------------|
+| 20 | ![Re20](./Re_20/Figures/pressure.png) |
+| 40 | ![Re40](./Re_40/Figures/pressure.png) |
+| 150 | ![Re150](./Re_150/Figures/pressure.png) |
+| 180 | ![Re180](./Re_180/Figures/pressure.png) |
+
 ---
 
 ### Vortex Shedding Animation (Representative Case)
+Re = 20  
+![Shedding](./Re_20/Animation/flowovercylinderRe20.gif)
+
+Re = 40  
+![Shedding](./Re_40/Animation/flowovercylinderRe40.gif)
+
 Re = 150  
-![Shedding](./Re150/animations/vortex_shedding.gif)
+![Shedding](./Re_150/Animation/flowovercylinderRe150.gif)
+
+Re = 180  
+![Shedding](./Re_180/Animation/flowovercylinderRe180.gif)
 
 ---
 
