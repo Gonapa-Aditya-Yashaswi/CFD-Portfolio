@@ -8,23 +8,27 @@ To investigate turbulent flow over a smooth asymmetric hill using Large Eddy Sim
 
 ## Simulation Details
 
-- Solver: PaDEOPS
+- Solver: PadeOps
 - Turbulence Model: Large Eddy Simulation (LES)
 - Flow Type: Incompressible turbulent flow
-- Geometry: Smooth asymmetric hill
-- Domain: Three-dimensional
+- Geometry: Smooth asymmetric hill with varying leeward slopes
+- Domain: Two-dimensional
 
 ---
 
 ## Problem Schematic
 
-![Schematic](./Figures/problem_schematic.png)
+![Schematic](./Figures/schematic.png)
 
 ---
 
 ## Mean Velocity Contours
 
-![Velocity Contours](./Figures/velocity_contours.png)
+![Velocity Contours](./Figures/case1vel.png)
+
+![Velocity Contours](./Figures/case2vel.png)
+
+![Velocity Contours](./Figures/case3vel.png)
 
 The contours show flow acceleration over the hill crest and wake development downstream of the hill.
 
@@ -32,15 +36,27 @@ The contours show flow acceleration over the hill crest and wake development dow
 
 ## Validation of Mean Velocity Profiles
 
-![Velocity Validation](./Figures/velocity_validation.png)
+![Velocity Validation](./Figures/ca1.png)
 
 Mean velocity profiles are compared with benchmark data and show good agreement throughout the flow domain.
 
 ---
 
+## Turbulence Intensity (TI) Contours
+
+![TI Contours](./Figures/case1ti.png)
+
+![TI Contours](./Figures/case2ti.png)
+
+![TI Contours](./Figures/case3ti.png)
+
+The turbulence intensity contours highlight the evolution of turbulent structures over the hill and within the wake region. Increased turbulence levels are observed downstream of the hill due to flow separation and shear layer development.
+
+---
+
 ## Validation of Turbulence Profiles
 
-![Turbulence Validation](./Figures/turbulence_validation.png)
+![Turbulence Validation](./Figures/ca2_1.png)
 
 Predicted turbulence statistics compare favorably with reference data, demonstrating the capability of LES to capture large-scale turbulent structures.
 
