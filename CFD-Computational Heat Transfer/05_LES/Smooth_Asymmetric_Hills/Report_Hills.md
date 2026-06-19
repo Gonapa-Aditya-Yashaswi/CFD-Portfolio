@@ -1,39 +1,68 @@
 # LES of Flow Over Smooth Asymmetric Hills
 
 ## Objective
-To perform Large Eddy Simulation (LES) of turbulent flow over smooth
-asymmetric hills and validate the mean flow and turbulence statistics
-against published benchmark data.
+
+To investigate turbulent flow over a smooth asymmetric hill using Large Eddy Simulation (LES) and validate the predicted velocity and turbulence statistics against benchmark data.
+
+---
 
 ## Simulation Details
-- Solver: PadeOPS
-- Turbulence modeling: Large Eddy Simulation (LES)
-- Subgrid-scale model: Anisotropic subgrid scale model
-- Flow type: Incompressible turbulent flow
 
-## Results
+- Solver: PaDEOPS
+- Turbulence Model: Large Eddy Simulation (LES)
+- Flow Type: Incompressible turbulent flow
+- Geometry: Smooth asymmetric hill
+- Domain: Three-dimensional
 
-### Mean Velocity Field
-![Mean Velocity](./Figures/case1vel.png)
+---
 
-![Mean Velocity](./Figures/case2vel.png)
+## Problem Schematic
 
-![Mean Velocity](./Figures/case3vel.png)
+![Schematic](./Figures/problem_schematic.png)
 
-### Reynolds Stress / Turbulence Statistics
-![Re Stress](./Figures/case1ti.png)
+---
 
-![Re Stress](./Figures/case2ti.png)
+## Mean Velocity Contours
 
-![Re Stress](./Figures/case3ti.png)
+![Velocity Contours](./Figures/velocity_contours.png)
 
-## Validation
-Mean velocity profiles and turbulence statistics are compared with
-benchmark data reported in literature. Good agreement is observed,
-confirming the accuracy of the LES setup.
+The contours show flow acceleration over the hill crest and wake development downstream of the hill.
 
-![Validation](./Figures/validation.png)
+---
 
-## Notes
-This project demonstrates research-level LES capability and validation
-of turbulent flow over complex terrain using PaDEOPS.
+## Validation of Mean Velocity Profiles
+
+![Velocity Validation](./Figures/velocity_validation.png)
+
+Mean velocity profiles are compared with benchmark data and show good agreement throughout the flow domain.
+
+---
+
+## Validation of Turbulence Profiles
+
+![Turbulence Validation](./Figures/turbulence_validation.png)
+
+Predicted turbulence statistics compare favorably with reference data, demonstrating the capability of LES to capture large-scale turbulent structures.
+
+---
+
+## Flow Animation
+
+![Animation](./Figures/flow_animation.gif)
+
+The animation illustrates the temporal evolution of the turbulent flow field over the hill.
+
+---
+
+## Key Findings
+
+- Flow accelerates near the hill crest.
+- Wake structures develop downstream of the hill.
+- LES captures large-scale turbulent motions effectively.
+- Mean velocity and turbulence statistics show good agreement with benchmark data.
+
+---
+
+## Conclusion
+
+Large Eddy Simulation was performed using PaDEOPS to study turbulent flow over a smooth asymmetric hill. The predicted velocity and turbulence profiles showed good agreement with benchmark data, demonstrating the accuracy of the LES framework for complex terrain flow simulations.
