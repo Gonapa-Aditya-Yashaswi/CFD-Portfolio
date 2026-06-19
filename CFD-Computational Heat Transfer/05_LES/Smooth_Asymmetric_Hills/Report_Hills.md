@@ -64,7 +64,7 @@ Predicted turbulence statistics compare favorably with reference data, demonstra
 
 ## Flow Animation
 
-![Animation](./Figures/flow_animation.gif)
+![Animation](./Figures/anim.gif)
 
 The animation illustrates the temporal evolution of the turbulent flow field over the hill.
 
@@ -81,4 +81,4 @@ The animation illustrates the temporal evolution of the turbulent flow field ove
 
 ## Conclusion
 
-Large Eddy Simulation was performed using PaDEOPS to study turbulent flow over a smooth asymmetric hill. The predicted velocity and turbulence profiles showed good agreement with benchmark data, demonstrating the accuracy of the LES framework for complex terrain flow simulations.
+The study highlights a clear sensitivity of the velocity, and turbulence intensity to slope. The least–steep hill (largest half–width) maintains attached flow or, at most, a very small recirculation region that remains close to the leeward surface. As the slope increases, the recirculation region enlarges, turbulence intensity increases, and the wake width increases and persists farther downstream. While the gentle hill consistently shows reduced deceleration and a rapidly decaying wake, the two steeper cases produce comparably larger recirculation regions.
