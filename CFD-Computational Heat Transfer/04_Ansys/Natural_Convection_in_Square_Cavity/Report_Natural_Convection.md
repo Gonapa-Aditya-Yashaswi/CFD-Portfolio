@@ -135,6 +135,8 @@ Error is computed as:
 
 Error (%) = |Nu_CFD − Nu_VahlDavis| / Nu_VahlDavis × 100
 
+![Average Nusselt Number Comparison](./Figures/nu_vs_ra.png)
+
 Good agreement is observed across all Rayleigh numbers, confirming the
 accuracy of the numerical solution.
 
