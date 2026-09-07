@@ -83,27 +83,31 @@ keeping the fin thickness constant.
 | 15 | 58.8103 | 54.349 | −7.59 |
 | 20 | 61.9335 | 52.365 | −15.45 |
 
+
+
+![Parametric Comparison](./Figures/tvsfin.png)
+
 ---
+
 
 ## Key Findings
 
-- Increasing the number of fins initially improves heat dissipation.
-- Increasing fin density also increases the available heat-transfer area.
-- Excessive fin density can restrict the flow passages between fins.
-- The reference study reported an optimum fin number of 15 for the
-  investigated configurations.
-- The reference study also identified 0.25 mm as the optimum fin thickness.
+- The maximum temperature decreases significantly as the number of fins increases from 5 to 15.
+- The present ANSYS Icepak results predict a further reduction in maximum temperature at 20 fins, unlike the reference study, which reported the minimum temperature at 15 fins.
+- The predicted maximum temperatures in the present study are lower than the values reported by Yaseen (2023) for all four configurations.
+- The deviation between the present results and the reference study ranges from 4.21% to 15.45%.
+- The closest agreement with the reference study is obtained for the 10-fin configuration, with a deviation of 4.21%.
+- The 20-fin configuration gives the lowest maximum temperature in the present study, at 52.365 °C.
 
 ---
 
 ## Conclusion
 
-A parametric study of a finned heat sink was performed using ANSYS Icepak
-for 5, 10, 15, and 20 fins at a constant fin thickness of 0.25 mm.
+A numerical investigation of the effect of fin number on heat sink thermal performance was carried out using ANSYS Icepak. Simulations were performed for 5, 10, 15, and 20 fins while maintaining a constant fin thickness of 0.25 mm.
 
-The simulations demonstrate the influence of fin number on temperature,
-airflow, and pressure distribution and provide insight into the trade-off
-between increased heat-transfer area and flow resistance.
+The present results show a continuous reduction in maximum temperature with increasing fin number, with the lowest temperature of 52.365 °C obtained for 20 fins. The results show reasonable agreement with the reference study for the 5–15 fin configurations, while a different trend is observed for 20 fins.
+
+The comparison demonstrates the influence of fin number on heat sink thermal performance and highlights the sensitivity of the numerical results to the modeled configuration and simulation conditions.
 
 ---
 
