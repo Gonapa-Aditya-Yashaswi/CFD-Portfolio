@@ -28,6 +28,8 @@ while maintaining a constant fin thickness of 0.025 cm (0.25 mm).
 The heat sink geometry was varied by changing the number of fins while
 keeping the fin thickness constant.
 
+![Geometry](./Figures/geo.png)
+
 
 ---
 
