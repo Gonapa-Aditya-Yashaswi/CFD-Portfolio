@@ -58,6 +58,11 @@ to assess the accuracy of the numerical model.
 | Fin + base temperature | 132–134 °C | 126.97 °C | +4.0 to +5.5% |
 | Pressure drop | 0.11–0.125 Pa | 0.12 Pa | −8.0 to +4.0% |
 
+The chip temperature predicted by the present simulation differs from the
+reference value by approximately 4.0–5.5%. The predicted pressure drop
+ranges from 0.11 to 0.125 Pa compared with 0.12 Pa reported in the
+reference study, showing reasonable agreement.
+
 ## Key Observations
 
 - Circular pin fins increase the available heat-transfer surface area.
