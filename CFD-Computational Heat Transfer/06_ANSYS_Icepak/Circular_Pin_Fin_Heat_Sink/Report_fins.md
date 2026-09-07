@@ -32,21 +32,31 @@ fins reported in the reference study.
 
 ## Temperature Distribution
 
-![Temperature](./Figures/temperature.png)
+![Temperature](./Figures/fin+base.png)
 
 ---
 
 ## Velocity Distribution
 
-![Velocity](./Figures/velocity.png)
+![Velocity](./Figures/fin+base_VEL.png)
 
 ---
 
 ## Pressure Distribution
 
-![Pressure](./Figures/pressure.png)
+![Pressure](./Figures/fin+base-PRESS.png)
 
 ---
+
+## Validation
+
+The present ANSYS Icepak results are compared with the reference paper
+to assess the accuracy of the numerical model.
+
+| Metric | Present Study | Reference Paper | Error |
+|---|---:|---:|---:|
+| Fin + base temperature | 132–134 °C | 126.97 °C | +4.0 to +5.5% |
+| Pressure drop | 0.11–0.125 Pa | 0.12 Pa | −8.0 to +4.0% |
 
 ## Key Observations
 
