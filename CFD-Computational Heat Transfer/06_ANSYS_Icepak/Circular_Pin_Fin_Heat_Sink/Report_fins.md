@@ -26,7 +26,7 @@ fins reported in the reference study.
 
 ## Geometry
 
-![Geometry](./Figures/geometry.png)
+![Geometry](./Figures/geo.png)
 
 ---
 
