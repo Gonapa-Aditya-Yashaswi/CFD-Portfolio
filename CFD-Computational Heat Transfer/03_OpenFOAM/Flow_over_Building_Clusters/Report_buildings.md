@@ -43,7 +43,9 @@ Two mesh resolutions (`grid1`, `grid2`) were compared at six streamwise
 stations behind the 3×3 array, plotting non-dimensional streamwise velocity
 (U/U_δ) against normalized height (Z/H_B).
 
-![Grid Independence](./Figures/3x3/grid_independence.png)
+![Streamwise Profiles](./Figures/Picture1.png)
+
+![Lateral Profiles](./Figures/Picture2.png)
 
 `grid2` shows closer agreement with experimental data and removes a
 non-physical velocity spike present in `grid1` within the canopy region
@@ -83,8 +85,31 @@ examine wake development, jet formation between buildings, and merging of
 individual wakes into a global wake structure with increasing array size.
 These configurations were not formally validated against benchmark data.
 
-![Row Configurations](./Figures/rows/velocity_contours.png)
-![5x5 Array](./Figures/5x5/velocity_contour.png)
+![1x1](./Figures/singlebuild.png)
+
+![Configuration 1 Side View](./Figures/case2f/fv.png)
+
+![Configuration 1 Top View](./Figures/case2f/tv.png)
+
+![Configuration 2 Side View](./Figures/case3f/fv.png)
+
+![Configuration 2 Top View](./Figures/case3f/tv.png)
+
+![Configuration 3 Side View](./Figures/case4f/fv.png)
+
+![Configuration 3 Top View](./Figures/case4f/tv.png)
+
+![3x3 Array Side View](./Figures/caseN3/fv1.png)
+
+![3x3 Array Top View](./Figures/caseN3/tv.png)
+
+![4x4 Array Side View](./Figures/caseN4/fv1.png)
+
+![4x4 Array Top View](./Figures/caseN4/tv2.png)
+
+![5x5 Array Side View](./Figures/caseN5/fv1.png)
+
+![5x5 Array Top View](./Figures/caseN5/tv.png)
 
 ---
 
