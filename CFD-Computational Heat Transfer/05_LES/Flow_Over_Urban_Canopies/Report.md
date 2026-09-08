@@ -17,7 +17,7 @@ part of the M.Tech thesis research at IIT Hyderabad.
 - Inflow generation: precursor simulation method, validated independently
   against the logarithmic law of the wall (see Precursor Validation below)
 - Two precursor cases (Case1, Case2) were run to test the grid independence
-- Subgrid-scale model: Anisotropy Minimum Disipation
+- Subgrid-scale model: Anisotropic Minimum Dissipation
 - Domain size: 0.27 x 0.18 x 0.18
 - Grid resolution: 288 x 192 x 160
 
@@ -39,28 +39,10 @@ $$
 $$
 
 where $\tau_{ij}$ is the subgrid-scale stress tensor, closed using
-[FILL IN — subgrid model name].
+Anisotropic Minimum Dissipation.
 
 ---
 
-## Precursor Simulation Validation
-
-Before introducing the building, the inflow-generating precursor simulation
-was validated against the logarithmic law of the wall to confirm a
-physically realistic turbulent boundary layer.
-
-![Precursor Validation](./Figures/precursor_validation.png)
-
-- **Streamwise velocity** (U/u*) closely follows the log-law profile for
-  both Case1 and Case2 across the boundary layer depth.
-- **Turbulence intensity (TI)** tracks the log-law prediction well, with
-  minor deviation in the outer layer.
-- **Total shear stress** (⟨u'w'⟩/u*²) shows the expected linear decay from
-  the wall to the boundary layer edge, confirming the simulation has reached
-  a statistically stationary, equilibrium turbulent state before the
-  building is introduced.
-
----
 
 ## Results
 
@@ -68,7 +50,9 @@ physically realistic turbulent boundary layer.
 Wake interactions and recirculation zones behind the building were
 characterized through instantaneous and time-averaged velocity fields.
 
-![Wake Structure](./Figures/wake_structure.png)
+![Wake Structure](./Figures/LES/fvc.png)
+
+![Wake Structure](./Figures/LES/tvc.png)
 
 ### Reynolds Stress Statistics
 
@@ -76,9 +60,15 @@ Normal Reynolds stress components (u'u', v'v', w'w') were computed and
 visualized in both the vertical (x/W_B, z/H_B) and lateral (x/W_B, y/W_B)
 planes, along with the Reynolds shear stress (⟨u'w'⟩) in the vertical plane.
 
-![Normal Stresses - Vertical Plane](./Figures/reynolds_stress_vertical.png)
-![Normal Stresses - Lateral Plane](./Figures/reynolds_stress_lateral.png)
-![Reynolds Shear Stress](./Figures/reynolds_shear_stress.png)
+![Normal Stresses - Vertical Plane](./Figures/LES/uu.png)
+![Normal Stresses - Vertical Plane](./Figures/LES/vv.png)
+![Normal Stresses - Vertical Plane](./Figures/LES/ww.png)
+
+![Normal Stresses - Lateral Plane](./Figures/LES/uut.png)
+![Normal Stresses - Lateral Plane](./Figures/LES/vvt.png)
+![Normal Stresses - Lateral Plane](./Figures/LES/wwt.png)
+
+![Reynolds Shear Stress](./Figures/LES/tss.png)
 
 **Observations:**
 - **u'u' (streamwise fluctuations):** Peak values occur in the shear layer
@@ -115,7 +105,9 @@ https://doi.org/10.1007/s10546-023-00830-0
 
 ### Comparison Plots
 
-![Lateral and Vertical Validation](./Figures/validation_comparison.png)
+![Lateral and Vertical Validation](./Figures/LES/tv.png)
+
+![Lateral and Vertical Validation](./Figures/LES/fv.png)
 
 ### Observations
 - Excellent agreement between LES and experimental data across nearly all
