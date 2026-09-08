@@ -1,4 +1,3 @@
-
 # Large Eddy Simulation (LES) of Flow over Urban Canopies (PadeOps)
 
 ## Objective
@@ -16,8 +15,8 @@ part of the M.Tech thesis research at IIT Hyderabad.
   turbulent boundary layer
 - Inflow generation: precursor simulation method, validated independently
   against the logarithmic law of the wall (see Precursor Validation below)
-- Two precursor cases (Case1, Case2) were run to test the grid independence
-- Subgrid-scale model: Anisotropic Minimum Dissipation
+- Two precursor cases (Case1, Case2) were run to test grid independence
+- Subgrid-scale model: Anisotropic Minimum Dissipation (AMD)
 - Domain size: 0.27 x 0.18 x 0.18
 - Grid resolution: 288 x 192 x 160
 
@@ -32,17 +31,30 @@ $$
 $$
 
 $$
-\frac{\partial \bar{u}_i}{\partial t} + \frac{\partial (\bar{u}_i \bar{u}_j)}{\partial x_j}
-= -\frac{1}{\rho}\frac{\partial \bar{p}}{\partial x_i}
-+ \nu \frac{\partial^2 \bar{u}_i}{\partial x_j \partial x_j}
-- \frac{\partial \tau_{ij}}{\partial x_j}
+\frac{\partial \bar{u}_i}{\partial t} + \frac{\partial (\bar{u}_i \bar{u}_j)}{\partial x_j} = -\frac{1}{\rho}\frac{\partial \bar{p}}{\partial x_i} + \nu \frac{\partial^2 \bar{u}_i}{\partial x_j \partial x_j} - \frac{\partial \tau_{ij}}{\partial x_j}
 $$
 
-where $\tau_{ij}$ is the subgrid-scale stress tensor, closed using
-Anisotropic Minimum Dissipation.
+where $\tau_{ij}$ is the subgrid-scale stress tensor, closed using the
+Anisotropic Minimum Dissipation (AMD) model.
 
 ---
 
+## Precursor Simulation Validation
+
+Before introducing the building, the inflow-generating precursor simulation
+was validated against the logarithmic law of the wall to confirm a
+physically realistic turbulent boundary layer.
+
+- **Streamwise velocity** (U/u*) closely follows the log-law profile for
+  both Case1 and Case2 across the boundary layer depth.
+- **Turbulence intensity (TI)** tracks the log-law prediction well, with
+  minor deviation in the outer layer.
+- **Total shear stress** (⟨u'w'⟩/u*²) shows the expected linear decay from
+  the wall to the boundary layer edge, confirming the simulation has reached
+  a statistically stationary, equilibrium turbulent state before the
+  building is introduced.
+
+---
 
 ## Results
 
@@ -50,9 +62,8 @@ Anisotropic Minimum Dissipation.
 Wake interactions and recirculation zones behind the building were
 characterized through instantaneous and time-averaged velocity fields.
 
-![Wake Structure](./Figures/LES/fvc.png)
-
-![Wake Structure](./Figures/LES/tvc.png)
+![Wake Structure - Front View](./Figures/LES/fvc.png)
+![Wake Structure - Top View](./Figures/LES/tvc.png)
 
 ### Reynolds Stress Statistics
 
@@ -60,13 +71,13 @@ Normal Reynolds stress components (u'u', v'v', w'w') were computed and
 visualized in both the vertical (x/W_B, z/H_B) and lateral (x/W_B, y/W_B)
 planes, along with the Reynolds shear stress (⟨u'w'⟩) in the vertical plane.
 
-![Normal Stresses - Vertical Plane](./Figures/LES/uu.png)
-![Normal Stresses - Vertical Plane](./Figures/LES/vv.png)
-![Normal Stresses - Vertical Plane](./Figures/LES/ww.png)
+![u'u' - Vertical Plane](./Figures/LES/uu.png)
+![v'v' - Vertical Plane](./Figures/LES/vv.png)
+![w'w' - Vertical Plane](./Figures/LES/ww.png)
 
-![Normal Stresses - Lateral Plane](./Figures/LES/uut.png)
-![Normal Stresses - Lateral Plane](./Figures/LES/vvt.png)
-![Normal Stresses - Lateral Plane](./Figures/LES/wwt.png)
+![u'u' - Lateral Plane](./Figures/LES/uut.png)
+![v'v' - Lateral Plane](./Figures/LES/vvt.png)
+![w'w' - Lateral Plane](./Figures/LES/wwt.png)
 
 ![Reynolds Shear Stress](./Figures/LES/tss.png)
 
@@ -94,8 +105,8 @@ planes, along with the Reynolds shear stress (⟨u'w'⟩) in the vertical plane.
 
 Streamwise velocity profiles were compared against the wind-tunnel dataset
 of **Mishra et al. (2023)** for the single-building (1×1) case, at multiple
-downstream stations in both the lateral (x/W_B, y/W_B) and vertical
-(x/W_B, z/H_B) planes.
+downstream stations in both the lateral ($x/W_B$, $y/W_B$) and vertical
+($x/W_B$, $z/H_B$) planes.
 
 **Reference:**
 Mishra, A., Placidi, M., Carpentieri, M., Robins, A. (2023).
@@ -105,9 +116,8 @@ https://doi.org/10.1007/s10546-023-00830-0
 
 ### Comparison Plots
 
-![Lateral and Vertical Validation](./Figures/LES/tv.png)
-
-![Lateral and Vertical Validation](./Figures/LES/fv.png)
+![Validation - Top View](./Figures/LES/tv.png)
+![Validation - Front View](./Figures/LES/fv.png)
 
 ### Observations
 - Excellent agreement between LES and experimental data across nearly all
@@ -138,7 +148,7 @@ https://doi.org/10.1007/s10546-023-00830-0
 
 ## Tools Used
 - PadeOps
-- [FILL IN — post-processing tools, e.g., Python/MATLAB/ParaView]
+- MATLAB
 
 ---
 
