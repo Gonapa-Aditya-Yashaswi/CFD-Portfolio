@@ -14,7 +14,7 @@ published wind-tunnel data.
 - Turbulence models: k-ε and k-ω SST
 - Configurations studied:
   - Single building
-  - Building rows of varying depth (3, 4, and 5 buildings in-line)
+  - Building rows of varying depth (2, 3 buildings in-line and staggered)
   - Building arrays (including 3×3, 4x4 and 5×5 configurations)
 - Domain: rectangular channel with building models mounted on the floor,
   matching the general layout of wind-tunnel building-cluster studies
